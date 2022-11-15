@@ -4,18 +4,18 @@ name: Integration
 jobs:
   chore:
     steps:
-    - uses: actions/checkout@01aecccf739ca6ff86c0539fbc67a7a5007bbc81 # v2.1.0
-    - uses: actions/checkout@01aecccf739ca6ff86c0539fbc67a7a5007bbc81 # 2.1.0
-    - uses: actions/checkout@01aecccf739ca6ff86c0539fbc67a7a5007bbc81 # @v2.1.0
-    - uses: actions/checkout@01aecccf739ca6ff86c0539fbc67a7a5007bbc81 # pin @v2.1.0
-    - uses: actions/checkout@01aecccf739ca6ff86c0539fbc67a7a5007bbc81 # tag=v2.1.0
-    - uses: actions/checkout@01aecccf739ca6ff86c0539fbc67a7a5007bbc81  #   v2.1.0
-    - uses: actions/checkout@01aecccf739ca6ff86c0539fbc67a7a5007bbc81 #v2.1.0
+    - uses: actions/checkout@e2f20e631ae6d7dd3b768f56a5d2af784dd54791 # v2.5.0
+    - uses: actions/checkout@e2f20e631ae6d7dd3b768f56a5d2af784dd54791 # v2.5.0
+    - uses: actions/checkout@e2f20e631ae6d7dd3b768f56a5d2af784dd54791 # v2.5.0
+    - uses: actions/checkout@e2f20e631ae6d7dd3b768f56a5d2af784dd54791 # v2.5.0
+    - uses: actions/checkout@e2f20e631ae6d7dd3b768f56a5d2af784dd54791 # v2.5.0
+    - uses: actions/checkout@e2f20e631ae6d7dd3b768f56a5d2af784dd54791 # v2.5.0
+    - uses: actions/checkout@e2f20e631ae6d7dd3b768f56a5d2af784dd54791 # v2.5.0
     # The comment on the next line has a trailing tab. The version should still be updated.
-    - uses: actions/checkout@01aecccf739ca6ff86c0539fbc67a7a5007bbc81 #v2.1.0 
-    - uses: actions/checkout@01aecc # v2.1.0
+    - uses: actions/checkout@e2f20e631ae6d7dd3b768f56a5d2af784dd54791 # v2.5.0 
+    - uses: actions/checkout@e2f20e631ae6d7dd3b768f56a5d2af784dd54791 # v2.5.0
   integration:
-    - uses: actions/checkout@v2.1.0 # comments that include the version (v2.1.0) shouldn't be updated for non-SHA refs
+    - uses: actions/checkout@v2.5.0 # comments that include the version (v2.1.0) shouldn't be updated for non-SHA refs
     - uses: actions/checkout@01aecc#v2.1.0 # this shouldn't be updated, because the version is part of the ref, not a comment.
 
     # The version in the comment for the next action shouldn't be updated
@@ -27,4 +27,4 @@ jobs:
     # a heuristic that recognizes the first version as a version alias
     # for the SHA commit, and the second version as a concrete version
     # that shouldn't change. For simplicity, we don't update either.
-    - uses: actions/checkout@01aecccf739ca6ff86c0539fbc67a7a5007bbc81 # v2.1.0 - Versions older than v2.1.0 have a security vulnerability
+    - uses: actions/checkout@e2f20e631ae6d7dd3b768f56a5d2af784dd54791 # v2.5.0 - Versions older than v2.1.0 have a security vulnerability
