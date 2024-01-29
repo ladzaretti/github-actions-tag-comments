@@ -2,7 +2,7 @@ on: [push]
 
 env:
   # renovate: datasource=docker depName=ghcr.io/renovatebot/base-image versioning=docker
-  BASE_IMAGE_VERSION: 1.15.1-full@sha256:35a7689520e68171e5bb8bea34c9c96e6fa37cb4cb39dc54b54d6c7c5fbd6161
+  BASE_IMAGE_VERSION: ghcr.io/renovatebot/base-image:1.14.7-full@sha256:69b7e1e4764e096135cebc6137e1ffcbe89de07fedb0f47e197096f96c20cbd6
 
 
 name: Integration
