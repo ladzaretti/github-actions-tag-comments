@@ -7,6 +7,7 @@ env:
   RUST_VERSION: 1.74.1
   # renovate: datasource=docker packageName=ghcr.io/renovatebot/base-image versioning=docker
   SLIM_IMAGE_VERSION: 1.14.7
+  # renovate: datasource=docker packageName=ghcr.io/renovatebot/base-image versioning=docker
   FULL_IMAGE_VERSION: 1.14.7-full
 
 jobs:
