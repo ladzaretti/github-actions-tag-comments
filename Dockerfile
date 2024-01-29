@@ -1,1 +1,0 @@
-FROM ghcr.io/renovatebot/base-image:1.14.7-full@sha256:69b7e1e4764e096135cebc6137e1ffcbe89de07fedb0f47e197096f96c20cbd6
