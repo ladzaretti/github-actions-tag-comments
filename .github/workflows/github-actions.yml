@@ -25,7 +25,7 @@ jobs:
 
     # The version in the comment for the next action shouldn't be updated
     # because it refers to past behavior.
-    - uses: actions/checkout@01aecccf739ca6ff86c0539fbc67a7a5007bbc81 # Versions older than v2.1.0 have a security vulnerability
+    - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # Versions older than v2.1.0 have a security vulnerability
 
     # The versions in the comment for the next action won't be updated.
     # The first version could be updated, but it's difficult to create
