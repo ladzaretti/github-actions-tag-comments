@@ -3,12 +3,10 @@ on:
     types: [published]
 
 env:
-  # renovate: depName=rust-lang/rust
-  RUST_VERSION: 1.74.1
-  # renovate: datasource=docker depName=ghcr.io/renovatebot/base-image versioning=docker
-  SLIM_IMAGE_VERSION: "1.14.7"
-  # renovate: datasource=docker depName=ghcr.io/renovatebot/base-image versioning=docker
-  FULL_IMAGE_VERSION: 1.14.7-full
+  # renovate: datasource=docker depName=ghcr.io/renovatebot/renovate versioning=docker
+  RENOVATE_SLIM_VERSION: 37.137.3-slim
+  # renovate: datasource=docker depName=ghcr.io/renovatebot/renovate versioning=docker
+  RENOVATE_FULL_VERSION: 37.137.3-full
 
 jobs:
   push_to_registry:
