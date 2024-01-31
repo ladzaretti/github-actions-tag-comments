@@ -3,5 +3,15 @@
 		"config:recommended",
 		"regexManagers:githubActionsVersions",
 		"regexManagers:dockerfileVersions"
+	],
+	"packageRules": [
+		{
+			"description": "Update Renovate depdendency",
+			"matchPackageNames": [
+				"renovate",
+				"ghcr.io/renovatebot/renovate"
+			],
+			"groupName": "Update Renovate"
+		}
 	]
 }
