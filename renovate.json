@@ -3,8 +3,5 @@
 		"config:best-practices",
 		"regexManagers:githubActionsVersions",
 		"regexManagers:dockerfileVersions"
-	],
-	"dependencies": {
-		"renovate": "37.137.1"
-	}
+	]
 }
