@@ -1,5 +1,5 @@
 # renovate: datasource=docker depName=ghcr.io/renovatebot/renovate versioning=docker
-ARG RENOVATE_IMAGE_VERSION=37.137.3
+ARG RENOVATE_IMAGE_VERSION=37.163.0
 ARG RENOVATE_BASE_IMAGE=ghcr.io/renovatebot/renovate:${RENOVATE_IMAGE_VERSION}
 
 # renovate: datasource=docker depName=ghcr.io/containerbase/sidecar versioning=docker
