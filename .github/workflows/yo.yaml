@@ -4,6 +4,6 @@ on:
 
 env:
   # renovate: datasource=docker depName=ghcr.io/renovatebot/renovate versioning=docker
-  RENOVATE_SLIM_VERSION: 37.137.3
+  RENOVATE_SLIM_VERSION: 38.122.0
   # renovate: datasource=docker depName=ghcr.io/renovatebot/renovate versioning=docker
-  RENOVATE_FULL_VERSION: 37.137.3-full
+  RENOVATE_FULL_VERSION: 38.122.0-full
